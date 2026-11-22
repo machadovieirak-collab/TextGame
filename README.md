@@ -1,17 +1,21 @@
 # TextGame
-class Battle
-{
 
-};
 
-int main()
-{
+
+
+    class Battle
+    {
+
+    };
+
+    int main()
+    {
     int PlayerHealth = 20;
     int EnemieHealth = 20;
     string choice;
     
 
- while (PlayerHealth > 0 && EnemieHealth > 0) // While The player and the enemies health has not reach 0 this will continue being called
+     while (PlayerHealth > 0 && EnemieHealth > 0) // While The player and the enemies health has not reach 0 this will continue being called
     {
         cout << "Player has: " << PlayerHealth << " HP" << endl;
         cout << "Enemie has: " << EnemieHealth << " HP" << endl;
