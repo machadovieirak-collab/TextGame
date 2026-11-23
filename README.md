@@ -7,7 +7,9 @@ Battle turn base combat
 
 
 #pragma 
+
 #include <iostream>
+
 using namespace std;
 
 class Battle
